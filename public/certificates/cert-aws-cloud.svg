@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect x="24" y="24" width="752" height="512" fill="none" stroke="#f59e0b" stroke-width="2"/>
+
+  <!-- AWS Header -->
+  <g transform="translate(60, 55)">
+    <text x="0" y="24" fill="#232f3e" font-family="'Inter', sans-serif" font-weight="900" font-size="28">aws</text>
+    <path d="M 0,32 Q 30,42 60,32" stroke="#ff9900" stroke-width="3" fill="none"/>
+    <path d="M 56,29 L 62,32 L 57,36" fill="#ff9900"/>
+    <text x="75" y="24" fill="#64748b" font-family="'Inter', sans-serif" font-weight="700" font-size="18">Training &amp; Certification</text>
+  </g>
+
+  <!-- AWS Certified Badge Right -->
+  <g transform="translate(640, 190)">
+    <polygon points="0,-48 42,-24 42,24 0,48 -42,24 -42,-24" fill="#232f3e" stroke="#ff9900" stroke-width="2"/>
+    <text x="0" y="-12" text-anchor="middle" fill="#ffffff" font-family="'Inter', sans-serif" font-size="9" font-weight="bold">AWS CERTIFIED</text>
+    <text x="0" y="4" text-anchor="middle" fill="#ff9900" font-family="'Inter', sans-serif" font-size="8" font-weight="900">SOLUTIONS</text>
+    <text x="0" y="16" text-anchor="middle" fill="#ff9900" font-family="'Inter', sans-serif" font-size="8" font-weight="900">ARCHITECT</text>
+    <text x="0" y="28" text-anchor="middle" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="7">ASSOCIATE</text>
+  </g>
+
+  <g transform="translate(60, 150)">
+    <text x="0" y="0" fill="#b45309" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" letter-spacing="1">AWS CERTIFICATE OF ACHIEVEMENT</text>
+    <text x="0" y="44" fill="#0f172a" font-family="'Georgia', serif" font-weight="bold" font-size="32">Darren Raisya Iqbal</text>
+    <line x1="0" y1="56" x2="420" y2="56" stroke="#fde68a" stroke-width="1.5"/>
+
+    <text x="0" y="92" fill="#475569" font-family="'Inter', sans-serif" font-size="13">has successfully completed all requirements for</text>
+    <text x="0" y="125" fill="#232f3e" font-family="'Inter', sans-serif" font-weight="800" font-size="20">AWS Certified Solutions Architect - Associate</text>
+    <text x="0" y="152" fill="#64748b" font-family="'Inter', sans-serif" font-size="12">Demonstrating comprehensive knowledge of AWS Cloud architectures and security best practices.</text>
+
+    <!-- Signatures -->
+    <g transform="translate(0, 220)">
+      <path d="M 0,10 Q 30,22 60,-4 T 120,8" stroke="#0f172a" stroke-width="1.8" fill="none"/>
+      <line x1="0" y1="20" x2="140" y2="20" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="0" y="34" fill="#0f172a" font-family="'Inter', sans-serif" font-size="11" font-weight="600">Maureen Lonergan</text>
+      <text x="0" y="46" fill="#64748b" font-family="'Inter', sans-serif" font-size="9">VP, AWS Training and Certification</text>
+    </g>
+  </g>
+
+  <text x="60" y="500" fill="#94a3b8" font-family="'Courier New', monospace" font-size="10">Credential ID: AWS-SAA-839102 • December 2023</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+  <defs>
+    <linearGradient id="dicobg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fbfcfd"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="560" fill="url(#dicobg)"/>
+  <rect x="24" y="24" width="752" height="512" fill="none" stroke="#2d3e50" stroke-width="2"/>
+
+  <!-- Dicoding Logo (Top Left) -->
+  <g transform="translate(60, 55)">
+    <text x="0" y="24" fill="#2d3e50" font-family="'Inter', sans-serif" font-weight="900" font-size="28">dicoding</text>
+    <circle cx="118" cy="18" r="4" fill="#e74c3c"/>
+  </g>
+
+  <!-- Blue Ribbon Badge (Top Right) -->
+  <g transform="translate(670, 24)">
+    <path d="M 0,0 L 54,0 L 54,120 L 27,96 L 0,120 Z" fill="#2c3e50"/>
+    <circle cx="27" cy="52" r="22" fill="#2c3e50" stroke="#f1c40f" stroke-width="2" stroke-dasharray="2 2"/>
+    <text x="27" y="60" text-anchor="middle" fill="#ffffff" font-family="'Georgia', serif" font-weight="bold" font-size="22">9</text>
+  </g>
+  <g transform="translate(650, 160)">
+    <text x="47" y="0" text-anchor="middle" fill="#2c3e50" font-family="'Inter', sans-serif" font-size="8" font-weight="800" letter-spacing="1">SERTIFIKAT</text>
+    <text x="47" y="12" text-anchor="middle" fill="#2c3e50" font-family="'Inter', sans-serif" font-size="7" font-weight="700">KOMPETENSI</text>
+    <text x="47" y="22" text-anchor="middle" fill="#2c3e50" font-family="'Inter', sans-serif" font-size="7" font-weight="700">KELULUSAN</text>
+  </g>
+
+  <!-- Center Content -->
+  <g transform="translate(60, 150)">
+    <text x="0" y="0" fill="#7f8c8d" font-family="'Inter', sans-serif" font-size="12">Diberikan kepada :</text>
+    <text x="0" y="44" fill="#2c3e50" font-family="'Georgia', serif" font-weight="bold" font-size="32">Darren Raisya Iqbal</text>
+    <line x1="0" y1="56" x2="420" y2="56" stroke="#bdc3c7" stroke-width="1.5"/>
+
+    <text x="0" y="90" fill="#7f8c8d" font-family="'Inter', sans-serif" font-size="12">Atas kelulusannya pada kelas</text>
+    <text x="0" y="120" fill="#2980b9" font-family="'Inter', sans-serif" font-weight="700" font-size="19">Belajar Dasar Structured Query Language (SQL)</text>
+
+    <!-- Signatures & Date -->
+    <g transform="translate(0, 210)">
+      <text x="0" y="0" fill="#7f8c8d" font-family="'Inter', sans-serif" font-size="11">01 September 2024</text>
+      <!-- Signature line -->
+      <path d="M 0,25 Q 30,5 60,30 T 130,20" stroke="#2c3e50" stroke-width="2" fill="none"/>
+      <line x1="0" y1="40" x2="160" y2="40" stroke="#95a5a6" stroke-width="1"/>
+      <text x="0" y="55" fill="#2c3e50" font-family="'Inter', sans-serif" font-size="11" font-weight="700">Narenda Wicaksono</text>
+      <text x="0" y="68" fill="#7f8c8d" font-family="'Inter', sans-serif" font-size="9">Chief Executive Officer, Dicoding Indonesia</text>
+    </g>
+  </g>
+
+  <!-- QR code simulation & verify link bottom right -->
+  <g transform="translate(670, 420)">
+    <!-- QR mockup -->
+    <rect x="0" y="0" width="48" height="48" fill="#ffffff" stroke="#2c3e50" stroke-width="1"/>
+    <rect x="4" y="4" width="14" height="14" fill="#2c3e50"/>
+    <rect x="30" y="4" width="14" height="14" fill="#2c3e50"/>
+    <rect x="4" y="30" width="14" height="14" fill="#2c3e50"/>
+    <rect x="22" y="22" width="6" height="6" fill="#2c3e50"/>
+    <rect x="32" y="24" width="8" height="4" fill="#2c3e50"/>
+    <rect x="22" y="34" width="8" height="6" fill="#2c3e50"/>
+  </g>
+  <text x="660" y="485" text-anchor="end" fill="#7f8c8d" font-family="'Courier New', monospace" font-size="9">Verifikasi Sertifikat :</text>
+  <text x="660" y="497" text-anchor="end" fill="#2980b9" font-family="'Courier New', monospace" font-size="9">dicoding.com/certificates/QLZ9R1RO9P5D</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+  <defs>
+    <linearGradient id="purpleGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect x="20" y="20" width="760" height="520" fill="none" stroke="url(#purpleGold)" stroke-width="3" rx="6"/>
+  <rect x="28" y="28" width="744" height="504" fill="none" stroke="#f5f3ff" stroke-width="2"/>
+
+  <!-- AI Society Header -->
+  <g transform="translate(60, 55)">
+    <circle cx="16" cy="16" r="14" fill="#8b5cf6"/>
+    <text x="12" y="21" fill="#ffffff" font-family="'Inter', sans-serif" font-weight="900" font-size="14">AI</text>
+    <text x="40" y="18" fill="#5b21b6" font-family="'Inter', sans-serif" font-weight="900" font-size="16">INDONESIA ARTIFICIAL INTELLIGENCE SOCIETY</text>
+    <text x="40" y="30" fill="#64748b" font-family="'Inter', sans-serif" font-size="10">ANNUAL EXCELLENCE SUMMIT</text>
+  </g>
+
+  <!-- Star Badge Right -->
+  <g transform="translate(650, 190)">
+    <circle cx="0" cy="0" r="48" fill="#faf5ff" stroke="#8b5cf6" stroke-width="3"/>
+    <text x="0" y="-8" text-anchor="middle" font-size="24">✨</text>
+    <text x="0" y="16" text-anchor="middle" fill="#6d28d9" font-family="'Inter', sans-serif" font-size="9" font-weight="900">INNOVATION</text>
+    <text x="0" y="27" text-anchor="middle" fill="#8b5cf6" font-family="'Inter', sans-serif" font-size="7" font-weight="bold">EXCELLENCE</text>
+  </g>
+
+  <g transform="translate(60, 150)">
+    <text x="0" y="0" fill="#6d28d9" font-family="'Georgia', serif" font-weight="bold" font-size="16" letter-spacing="2">AWARD OF EXCELLENCE</text>
+    <text x="0" y="44" fill="#0f172a" font-family="'Georgia', serif" font-weight="bold" font-size="32">Darren Raisya Iqbal</text>
+    <line x1="0" y1="56" x2="420" y2="56" stroke="#ddd6fe" stroke-width="2"/>
+
+    <text x="0" y="92" fill="#475569" font-family="'Inter', sans-serif" font-size="13">In recognition of outstanding achievement and breakthrough in AI engineering</text>
+    <text x="0" y="125" fill="#6d28d9" font-family="'Inter', sans-serif" font-weight="800" font-size="20">Best Innovation Award — AI Solutions Cup</text>
+    <text x="0" y="152" fill="#64748b" font-family="'Inter', sans-serif" font-size="12">For the development of an automated computer vision document verification system.</text>
+
+    <!-- Signatures -->
+    <g transform="translate(0, 220)">
+      <path d="M 0,10 Q 30,18 60,-5 T 120,12" stroke="#0f172a" stroke-width="1.8" fill="none"/>
+      <line x1="0" y1="20" x2="150" y2="20" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="0" y="34" fill="#0f172a" font-family="'Inter', sans-serif" font-size="11" font-weight="600">Chairperson</text>
+      <text x="0" y="46" fill="#64748b" font-family="'Inter', sans-serif" font-size="9">Indonesian AI Committee</text>
+    </g>
+  </g>
+
+  <text x="60" y="500" fill="#94a3b8" font-family="'Courier New', monospace" font-size="10">Award ID: IAIS-AWD-2023-42 • October 2023</text>
+</svg>

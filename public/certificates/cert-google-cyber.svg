@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect x="24" y="24" width="752" height="512" fill="none" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- Google 4-Color Header -->
+  <g transform="translate(60, 55)">
+    <text x="0" y="26" fill="#4285F4" font-family="'Inter', sans-serif" font-weight="900" font-size="28">G<tspan fill="#EA4335">o</tspan><tspan fill="#FBBC05">o</tspan><tspan fill="#4285F4">g</tspan><tspan fill="#34A853">l</tspan><tspan fill="#EA4335">e</tspan></text>
+  </g>
+
+  <!-- Google Cybersecurity Seal right -->
+  <g transform="translate(640, 200)">
+    <circle cx="0" cy="0" r="50" fill="#f8fafc" stroke="#34A853" stroke-width="3"/>
+    <circle cx="0" cy="0" r="42" fill="#34A853" opacity="0.1"/>
+    <text x="0" y="-8" text-anchor="middle" fill="#1e293b" font-family="'Inter', sans-serif" font-size="10" font-weight="bold">GOOGLE</text>
+    <text x="0" y="8" text-anchor="middle" fill="#34A853" font-family="'Inter', sans-serif" font-size="9" font-weight="900">SECURITY</text>
+    <text x="0" y="22" text-anchor="middle" fill="#64748b" font-family="'Inter', sans-serif" font-size="7">CERTIFIED</text>
+  </g>
+
+  <g transform="translate(60, 150)">
+    <text x="0" y="0" fill="#64748b" font-family="'Inter', sans-serif" font-size="12" letter-spacing="1">PROFESSIONAL CERTIFICATE</text>
+    <text x="0" y="44" fill="#1e293b" font-family="'Georgia', serif" font-weight="bold" font-size="32">Darren Raisya Iqbal</text>
+    <line x1="0" y1="56" x2="420" y2="56" stroke="#e2e8f0" stroke-width="1.5"/>
+
+    <text x="0" y="92" fill="#475569" font-family="'Inter', sans-serif" font-size="13">has completed the requirements for the professional credential</text>
+    <text x="0" y="125" fill="#0f172a" font-family="'Inter', sans-serif" font-weight="700" font-size="20">Google Cybersecurity Professional Certificate</text>
+    <text x="0" y="152" fill="#64748b" font-family="'Inter', sans-serif" font-size="12">Covers network security, SIEM systems, packet analysis, incident triage, and Python automation.</text>
+
+    <!-- Signatures -->
+    <g transform="translate(0, 220)">
+      <path d="M 0,8 Q 30,18 60,-5 T 120,6" stroke="#1e293b" stroke-width="1.8" fill="none"/>
+      <line x1="0" y1="20" x2="140" y2="20" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="0" y="34" fill="#1e293b" font-family="'Inter', sans-serif" font-size="11" font-weight="600">Amanda Brophy</text>
+      <text x="0" y="46" fill="#64748b" font-family="'Inter', sans-serif" font-size="9">Director, Grow with Google</text>
+    </g>
+  </g>
+
+  <text x="60" y="500" fill="#94a3b8" font-family="'Courier New', monospace" font-size="10">Credential ID: GGL-SEC-4819A • Issued April 2024</text>
+</svg>

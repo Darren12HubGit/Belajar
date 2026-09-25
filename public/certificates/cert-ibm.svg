@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+  <defs>
+    <linearGradient id="ibmbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fcfcfd"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="560" fill="url(#ibmbg)"/>
+  <rect x="24" y="24" width="752" height="512" fill="none" stroke="#e5e7eb" stroke-width="1.5"/>
+
+  <!-- IBM Blue Logo 8-bar simulation -->
+  <g transform="translate(60, 60)">
+    <!-- I -->
+    <rect x="0" y="0" width="22" height="4" fill="#0062ff"/>
+    <rect x="0" y="7" width="22" height="4" fill="#0062ff"/>
+    <rect x="0" y="14" width="22" height="4" fill="#0062ff"/>
+    <rect x="0" y="21" width="22" height="4" fill="#0062ff"/>
+    <rect x="0" y="28" width="22" height="4" fill="#0062ff"/>
+    <rect x="0" y="35" width="22" height="4" fill="#0062ff"/>
+    <rect x="0" y="42" width="22" height="4" fill="#0062ff"/>
+    <rect x="0" y="49" width="22" height="4" fill="#0062ff"/>
+    <!-- B -->
+    <path d="M 32,0 H 54 C 60,0 64,5 64,12 C 64,18 61,22 56,24 C 62,26 66,32 66,40 C 66,48 60,53 52,53 H 32 Z" fill="#0062ff"/>
+    <text x="32" y="44" fill="#ffffff" font-family="'Courier New', monospace" font-size="28" font-weight="900">B</text>
+    <!-- M -->
+    <path d="M 76,0 H 84 L 94,30 L 104,0 H 112 V 53 H 104 V 16 L 96,44 H 92 L 84,16 V 53 H 76 Z" fill="#0062ff"/>
+  </g>
+
+  <!-- Coursera Certificate Header banner (top right) -->
+  <g transform="translate(560, 40)">
+    <path d="M 0,0 L 70,0 L 70,120 L 35,100 L 0,120 Z" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="35" y="30" text-anchor="middle" fill="#64748b" font-family="'Inter', sans-serif" font-size="8" font-weight="700" letter-spacing="1">COURSE</text>
+    <text x="35" y="45" text-anchor="middle" fill="#64748b" font-family="'Inter', sans-serif" font-size="8" font-weight="700" letter-spacing="1">CERTIFICATE</text>
+  </g>
+
+  <!-- Content text -->
+  <g transform="translate(60, 160)">
+    <text x="0" y="0" fill="#64748b" font-family="'Inter', sans-serif" font-size="12">COURSE CERTIFICATE</text>
+    <text x="0" y="45" fill="#111827" font-family="'Georgia', serif" font-weight="bold" font-size="32">Darren Raisya Iqbal</text>
+    <line x1="0" y1="58" x2="420" y2="58" stroke="#e5e7eb" stroke-width="1.5"/>
+
+    <text x="0" y="90" fill="#4b5563" font-family="'Inter', sans-serif" font-size="13">has successfully completed</text>
+    <text x="0" y="122" fill="#0043ce" font-family="'Inter', sans-serif" font-weight="700" font-size="18">Developing Back-End Apps with Node.js and Express</text>
+    <text x="0" y="150" fill="#4b5563" font-family="'Inter', sans-serif" font-size="13">an online non-credit course authorized by IBM and offered through Coursera</text>
+
+    <!-- Signatures -->
+    <g transform="translate(0, 230)">
+      <path d="M 0,10 Q 25,-10 50,10 T 110,5" stroke="#111827" stroke-width="1.8" fill="none"/>
+      <line x1="0" y1="20" x2="140" y2="20" stroke="#9ca3af" stroke-width="1"/>
+      <text x="0" y="34" fill="#111827" font-family="'Inter', sans-serif" font-size="10" font-weight="600">Upkar Lidder</text>
+      <text x="0" y="46" fill="#6b7280" font-family="'Inter', sans-serif" font-size="9">Full Stack Developer, IBM Skills Network</text>
+    </g>
+
+    <g transform="translate(180, 230)">
+      <path d="M 0,5 Q 30,15 60,-5 T 120,8" stroke="#111827" stroke-width="1.8" fill="none"/>
+      <line x1="0" y1="20" x2="140" y2="20" stroke="#9ca3af" stroke-width="1"/>
+      <text x="0" y="34" fill="#111827" font-family="'Inter', sans-serif" font-size="10" font-weight="600">Rav Ahuja</text>
+      <text x="0" y="46" fill="#6b7280" font-family="'Inter', sans-serif" font-size="9">Global Program Director, IBM</text>
+    </g>
+  </g>
+
+  <!-- Coursera Seal (Center Right) -->
+  <g transform="translate(580, 280)">
+    <circle cx="0" cy="0" r="54" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="3 3"/>
+    <circle cx="0" cy="0" r="46" fill="none" stroke="#0056D2" stroke-width="1.5"/>
+    <text x="0" y="-8" text-anchor="middle" fill="#0056D2" font-family="'Inter', sans-serif" font-size="13" font-weight="800" letter-spacing="1">coursera</text>
+    <text x="0" y="8" text-anchor="middle" fill="#64748b" font-family="'Inter', sans-serif" font-size="8" font-weight="600" letter-spacing="2">VERIFIED</text>
+    <text x="0" y="20" text-anchor="middle" fill="#64748b" font-family="'Inter', sans-serif" font-size="7">CERTIFICATE</text>
+  </g>
+
+  <!-- Credential Footer -->
+  <text x="60" y="500" fill="#9ca3af" font-family="'Courier New', monospace" font-size="10">Verify at coursera.org/verify/38R7G2Q5RCHB</text>
+</svg>

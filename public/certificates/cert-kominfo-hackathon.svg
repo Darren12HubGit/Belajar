@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+  <defs>
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect x="20" y="20" width="760" height="520" fill="none" stroke="url(#goldBorder)" stroke-width="4" rx="6"/>
+  <rect x="28" y="28" width="744" height="504" fill="none" stroke="#fef3c7" stroke-width="2"/>
+
+  <!-- Kominfo Header -->
+  <g transform="translate(60, 55)">
+    <circle cx="16" cy="16" r="14" fill="#0284c7"/>
+    <path d="M 8,16 L 16,8 L 24,16 L 16,24 Z" fill="#ffffff"/>
+    <text x="40" y="15" fill="#0369a1" font-family="'Inter', sans-serif" font-weight="900" font-size="14">KEMENTERIAN KOMUNIKASI DAN INFORMATIKA</text>
+    <text x="40" y="28" fill="#64748b" font-family="'Inter', sans-serif" font-size="11">REPUBLIK INDONESIA</text>
+  </g>
+
+  <!-- Gold Trophy Ribbon Badge Right -->
+  <g transform="translate(650, 190)">
+    <circle cx="0" cy="0" r="48" fill="#fffbeb" stroke="#f59e0b" stroke-width="3"/>
+    <text x="0" y="-8" text-anchor="middle" font-size="24">🏆</text>
+    <text x="0" y="16" text-anchor="middle" fill="#b45309" font-family="'Inter', sans-serif" font-size="9" font-weight="900">JUARA 1</text>
+    <text x="0" y="27" text-anchor="middle" fill="#d97706" font-family="'Inter', sans-serif" font-size="7" font-weight="bold">HACKATHON</text>
+  </g>
+
+  <g transform="translate(60, 150)">
+    <text x="0" y="0" fill="#b45309" font-family="'Georgia', serif" font-weight="bold" font-size="16" letter-spacing="2">PIAGAM PENGHARGAAN</text>
+    <text x="0" y="44" fill="#0f172a" font-family="'Georgia', serif" font-weight="bold" font-size="32">Darren Raisya Iqbal</text>
+    <line x1="0" y1="56" x2="420" y2="56" stroke="#fde68a" stroke-width="2"/>
+
+    <text x="0" y="92" fill="#475569" font-family="'Inter', sans-serif" font-size="13">Dianugerahkan sebagai Pemenang</text>
+    <text x="0" y="125" fill="#b45309" font-family="'Inter', sans-serif" font-weight="800" font-size="20">1st Place — National Web Development Hackathon</text>
+    <text x="0" y="152" fill="#64748b" font-family="'Inter', sans-serif" font-size="12">Atas inovasi sistem portal layanan publik digital berbasis kecerdasan buatan.</text>
+
+    <!-- Signatures -->
+    <g transform="translate(0, 220)">
+      <path d="M 0,15 Q 30,2 60,25 T 120,8" stroke="#0f172a" stroke-width="1.8" fill="none"/>
+      <line x1="0" y1="20" x2="150" y2="20" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="0" y="34" fill="#0f172a" font-family="'Inter', sans-serif" font-size="11" font-weight="600">Direktur Jenderal Aptika</text>
+      <text x="0" y="46" fill="#64748b" font-family="'Inter', sans-serif" font-size="9">Kementerian Kominfo RI</text>
+    </g>
+  </g>
+
+  <text x="60" y="500" fill="#94a3b8" font-family="'Courier New', monospace" font-size="10">No: 196/HCK/KOMINFO/XI/2023 • Jakarta, November 2023</text>
+</svg>

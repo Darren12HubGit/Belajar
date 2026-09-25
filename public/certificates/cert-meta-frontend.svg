@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect x="24" y="24" width="752" height="512" fill="none" stroke="#e2e8f0" stroke-width="2" rx="4"/>
+
+  <!-- Meta Blue Infinity Logo -->
+  <g transform="translate(60, 55)">
+    <path d="M 28,14 C 20,4 10,4 4,14 C -2,24 2,34 10,34 C 18,34 24,24 32,14 C 40,4 46,4 54,4 C 62,4 66,14 60,24 C 54,34 44,34 36,24" fill="none" stroke="#0668E1" stroke-width="5" stroke-linecap="round"/>
+    <text x="75" y="27" fill="#0668E1" font-family="'Inter', sans-serif" font-weight="900" font-size="26">Meta</text>
+  </g>
+
+  <!-- Coursera Ribbon top right -->
+  <g transform="translate(660, 24)">
+    <path d="M 0,0 L 50,0 L 50,100 L 25,85 L 0,100 Z" fill="#0056D2"/>
+    <circle cx="25" cy="45" r="16" fill="#0056D2" stroke="#ffffff" stroke-width="2"/>
+    <text x="25" y="50" text-anchor="middle" fill="#ffffff" font-family="'Inter', sans-serif" font-weight="900" font-size="12">✓</text>
+  </g>
+
+  <!-- Certificate body -->
+  <g transform="translate(60, 150)">
+    <text x="0" y="0" fill="#64748b" font-family="'Inter', sans-serif" font-size="12" letter-spacing="1">PROFESSIONAL CERTIFICATE</text>
+    <text x="0" y="44" fill="#0f172a" font-family="'Georgia', serif" font-weight="bold" font-size="32">Darren Raisya Iqbal</text>
+    <line x1="0" y1="56" x2="420" y2="56" stroke="#cbd5e1" stroke-width="1.5"/>
+
+    <text x="0" y="92" fill="#475569" font-family="'Inter', sans-serif" font-size="13">has successfully completed the 9-course professional program</text>
+    <text x="0" y="125" fill="#0668E1" font-family="'Inter', sans-serif" font-weight="700" font-size="20">Meta Front-End Developer Professional Certificate</text>
+    <text x="0" y="152" fill="#64748b" font-family="'Inter', sans-serif" font-size="12">Mastering React, JavaScript ES6+, UI design systems, and responsive front-end engineering.</text>
+
+    <!-- Signatures -->
+    <g transform="translate(0, 220)">
+      <path d="M 0,10 Q 30,-5 60,15 T 120,5" stroke="#0f172a" stroke-width="1.8" fill="none"/>
+      <line x1="0" y1="20" x2="140" y2="20" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="0" y="34" fill="#0f172a" font-family="'Inter', sans-serif" font-size="11" font-weight="600">Meta Staff Engineering</text>
+      <text x="0" y="46" fill="#64748b" font-family="'Inter', sans-serif" font-size="9">Coursera Verified Instructor</text>
+    </g>
+  </g>
+
+  <text x="60" y="500" fill="#94a3b8" font-family="'Courier New', monospace" font-size="10">Verify at coursera.org/verify/META-FE-99201</text>
+</svg>
