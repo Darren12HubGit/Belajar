@@ -1,8 +1,7 @@
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import {
   RiHome4Line, RiHome4Fill,
   RiUserLine, RiUserFill,
-  RiCodeBoxLine, RiCodeBoxFill,
   RiTrophyLine, RiTrophyFill,
   RiFolderLine, RiFolderFill,
   RiContactsLine, RiContactsFill,
@@ -15,7 +14,6 @@ import { useAppContext } from '../context/AppContext';
 const navLinks = [
   { to: '/',             label: { en: 'Home',         id: 'Beranda'    }, icon: RiHome4Line,    activeIcon: RiHome4Fill    },
   { to: '/about',        label: { en: 'About',        id: 'Tentang'    }, icon: RiUserLine,     activeIcon: RiUserFill     },
-  { to: '/creations',    label: { en: 'Creations',    id: 'Kreasi'     }, icon: RiCodeBoxLine,  activeIcon: RiCodeBoxFill  },
   { to: '/achievements', label: { en: 'Achievements', id: 'Pencapaian' }, icon: RiTrophyLine,   activeIcon: RiTrophyFill   },
   { to: '/projects',     label: { en: 'Projects',     id: 'Proyek'     }, icon: RiFolderLine,   activeIcon: RiFolderFill   },
   { to: '/contact',      label: { en: 'Contact',      id: 'Kontak'     }, icon: RiContactsLine, activeIcon: RiContactsFill },
@@ -23,7 +21,6 @@ const navLinks = [
 ];
 
 export default function Sidebar() {
-  const location = useLocation();
   const { theme, lang, toggleTheme, toggleLang } = useAppContext();
 
   /* ── reusable pill wrapper ── */
@@ -41,20 +38,9 @@ export default function Sidebar() {
     <button
       onClick={onClick}
       title={title}
+      className="sidebar-ctrl-btn"
       style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        borderRadius: 99,
-        height: 34,
-        minWidth: 34,
         padding: extraPad ? '0 12px' : '0',
-        border: 'none',
-        cursor: 'pointer',
-        fontSize: 11,
-        fontWeight: 700,
-        letterSpacing: '0.05em',
-        transition: 'all 0.2s',
         background: active ? 'var(--ctrl-active-bg)' : 'transparent',
         color: active ? 'var(--ctrl-active-color)' : 'var(--text-muted)',
       }}
@@ -89,14 +75,7 @@ export default function Sidebar() {
           <img
             src="/puki.jpg"
             alt="Darren"
-            style={{
-              width: 108,
-              height: 108,
-              borderRadius: '50%',
-              objectFit: 'cover',
-              border: '2.5px solid var(--border-hover)',
-              display: 'block',
-            }}
+            className="sidebar-avatar"
           />
           <span
             style={{
@@ -218,20 +197,7 @@ export default function Sidebar() {
             key={to}
             to={to}
             end={to === '/'}
-            style={({ isActive }) => ({
-              display: 'flex',
-              alignItems: 'center',
-              gap: 12,
-              padding: '11px 14px',
-              borderRadius: 12,
-              fontSize: 14,
-              fontWeight: 500,
-              textDecoration: 'none',
-              transition: 'background 0.15s ease, color 0.15s ease, transform 0.15s ease',
-              background: isActive ? 'var(--toggle-active-bg)' : 'transparent',
-              color: isActive ? 'var(--text-primary)' : 'var(--text-secondary)',
-            })}
-            className="group"
+            className={({ isActive }) => `sidebar-nav-link ${isActive ? 'active' : ''}`}
           >
             {({ isActive }) => {
               const I = isActive ? ActiveIcon : Icon;
@@ -239,12 +205,12 @@ export default function Sidebar() {
                 <>
                   <I
                     size={18}
+                    className="sidebar-nav-icon"
                     style={{
-                      flexShrink: 0,
                       color: isActive ? 'var(--accent)' : 'inherit',
                     }}
                   />
-                  <span style={{ flex: 1, lineHeight: 1 }}>{label[lang]}</span>
+                  <span className="sidebar-nav-label">{label[lang]}</span>
                   {isActive && (
                     <svg
                       width="14" height="14"

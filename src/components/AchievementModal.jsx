@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import {
   RiCloseLine,
   RiExternalLinkLine,
@@ -44,7 +45,7 @@ export default function AchievementModal({ achievement, onClose }) {
   const typeLabel = t.achievements.types[achievement.type] || achievement.type;
   const categoryLabel = t.achievements.categories[achievement.category] || achievement.category;
 
-  return (
+  return createPortal(
     <div
       className="modal-backdrop"
       onClick={onClose}
@@ -192,6 +193,7 @@ export default function AchievementModal({ achievement, onClose }) {
           )}
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

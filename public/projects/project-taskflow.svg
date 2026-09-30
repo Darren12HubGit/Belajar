@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tf-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="tf-card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#151e2e"/>
+    </linearGradient>
+    <radialGradient id="tf-glow" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="480" fill="url(#tf-bg)"/>
+  <rect width="800" height="480" fill="url(#tf-glow)"/>
+
+  <!-- Top Navigation Bar -->
+  <rect width="800" height="44" fill="#0f172a"/>
+  <line x1="0" y1="44" x2="800" y2="44" stroke="#1e293b" stroke-width="1"/>
+  <circle cx="20" cy="22" r="5" fill="#ef4444"/>
+  <circle cx="36" cy="22" r="5" fill="#f59e0b"/>
+  <circle cx="52" cy="22" r="5" fill="#10b981"/>
+
+  <!-- Logo & Workspace Title -->
+  <rect x="75" y="12" width="22" height="22" rx="6" fill="#6366f1"/>
+  <text x="86" y="27" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="800" font-size="12" text-anchor="middle">T</text>
+  <text x="105" y="27" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="14">TaskFlow</text>
+  <text x="175" y="26" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">/ Engineering Sprint 24</text>
+
+  <!-- Search & Avatar Stack in Header -->
+  <rect x="520" y="12" width="160" height="22" rx="11" fill="#1e293b"/>
+  <text x="535" y="26" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10">Search tasks...</text>
+  <circle cx="710" cy="22" r="10" fill="#3b82f6"/>
+  <circle cx="725" cy="22" r="10" fill="#10b981"/>
+  <circle cx="740" cy="22" r="10" fill="#ec4899"/>
+  <circle cx="755" cy="22" r="10" fill="#f59e0b"/>
+
+  <!-- Sub Header: Board Stats -->
+  <rect x="0" y="44" width="800" height="38" fill="#131d31"/>
+  <line x1="0" y1="82" x2="800" y2="82" stroke="#1e293b" stroke-width="1"/>
+  <text x="30" y="67" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="600" font-size="12">Kanban Board</text>
+  <rect x="130" y="52" width="60" height="20" rx="10" fill="#312e81"/>
+  <text x="160" y="66" fill="#a5b4fc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" text-anchor="middle">Active Sprint</text>
+  <text x="730" y="67" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">+ New Task</text>
+
+  <!-- Column 1: TO DO -->
+  <g transform="translate(30, 95)">
+    <rect width="230" height="360" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="28" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="11" letter-spacing="0.05em">TO DO</text>
+    <rect x="65" y="16" width="22" height="16" rx="8" fill="#1e293b"/>
+    <text x="76" y="28" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="10" text-anchor="middle">3</text>
+
+    <!-- Task Card 1 -->
+    <rect x="12" y="42" width="206" height="85" rx="8" fill="url(#tf-card)" stroke="#334155" stroke-width="0.8"/>
+    <rect x="22" y="52" width="46" height="15" rx="4" fill="#ef4444" fill-opacity="0.2"/>
+    <text x="45" y="63" fill="#f87171" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="9" font-weight="600" text-anchor="middle">URGENT</text>
+    <text x="22" y="82" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600">PostgreSQL Sharding</text>
+    <text x="22" y="98" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10">Prisma multi-tenant schema</text>
+    <circle cx="196" cy="112" r="7" fill="#3b82f6"/>
+
+    <!-- Task Card 2 -->
+    <rect x="12" y="137" width="206" height="85" rx="8" fill="url(#tf-card)" stroke="#334155" stroke-width="0.8"/>
+    <rect x="22" y="147" width="42" height="15" rx="4" fill="#3b82f6" fill-opacity="0.2"/>
+    <text x="43" y="158" fill="#60a5fa" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="9" font-weight="600" text-anchor="middle">FRONT</text>
+    <text x="22" y="177" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600">Kanban Drag UI</text>
+    <text x="22" y="193" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10">Framer Motion dnd integration</text>
+    <circle cx="196" cy="207" r="7" fill="#10b981"/>
+  </g>
+
+  <!-- Column 2: IN PROGRESS -->
+  <g transform="translate(285, 95)">
+    <rect width="230" height="360" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="28" fill="#f59e0b" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="11" letter-spacing="0.05em">IN PROGRESS</text>
+    <rect x="100" y="16" width="22" height="16" rx="8" fill="#78350f"/>
+    <text x="111" y="28" fill="#fde68a" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="10" text-anchor="middle">2</text>
+
+    <!-- Task Card 1 -->
+    <rect x="12" y="42" width="206" height="98" rx="8" fill="url(#tf-card)" stroke="#6366f1" stroke-width="1"/>
+    <rect x="22" y="52" width="56" height="15" rx="4" fill="#6366f1" fill-opacity="0.25"/>
+    <text x="50" y="63" fill="#a5b4fc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="9" font-weight="600" text-anchor="middle">REALTIME</text>
+    <text x="22" y="82" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600">WebSocket Presence</text>
+    <text x="22" y="98" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10">Live cursor &amp; collaborator pills</text>
+    <!-- Progress bar -->
+    <rect x="22" y="112" width="140" height="5" rx="2.5" fill="#334155"/>
+    <rect x="22" y="112" width="105" height="5" rx="2.5" fill="#6366f1"/>
+    <circle cx="196" cy="115" r="7" fill="#ec4899"/>
+
+    <!-- Task Card 2 -->
+    <rect x="12" y="150" width="206" height="85" rx="8" fill="url(#tf-card)" stroke="#334155" stroke-width="0.8"/>
+    <rect x="22" y="160" width="48" height="15" rx="4" fill="#10b981" fill-opacity="0.2"/>
+    <text x="46" y="171" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="9" font-weight="600" text-anchor="middle">BACKEND</text>
+    <text x="22" y="190" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600">Auth &amp; Team RBAC</text>
+    <text x="22" y="206" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10">JWT session verification</text>
+  </g>
+
+  <!-- Column 3: DONE -->
+  <g transform="translate(540, 95)">
+    <rect width="230" height="360" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="28" fill="#10b981" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="11" letter-spacing="0.05em">COMPLETED</text>
+    <rect x="95" y="16" width="22" height="16" rx="8" fill="#064e3b"/>
+    <text x="106" y="28" fill="#a7f3d0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="10" text-anchor="middle">4</text>
+
+    <!-- Done Card -->
+    <rect x="12" y="42" width="206" height="80" rx="8" fill="url(#tf-card)" stroke="#1e293b" stroke-width="0.8"/>
+    <text x="22" y="68" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" text-decoration="line-through">Next.js App Router Setup</text>
+    <text x="22" y="86" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10">Tailwind CSS + Lucide icons</text>
+    <text x="22" y="106" fill="#10b981" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="600">✓ Merged to main</text>
+  </g>
+</svg>

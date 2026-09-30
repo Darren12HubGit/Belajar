@@ -1,5 +1,4 @@
 import {
-  RiLinksLine,
   RiGithubLine,
   RiLinkedinBoxLine,
   RiInstagramLine,
@@ -58,7 +57,7 @@ const rawLinks = [
   },
   {
     id: 'email',
-    url: 'mailto:darreniqbal12@gmail.com',
+    url: 'mailto:iqbaldarren12@mail.com',
     icon: 'email',
     color: '#10b981',
     badge: null,
@@ -71,14 +70,14 @@ export default function Links() {
   return (
     <div className="page-enter space-y-6">
       <SectionHeader
-        icon={<RiLinksLine />}
         title={t.links.title}
         subtitle={t.links.subtitle}
+        isPageTitle
       />
 
       {/* Profile mini-card */}
       <div
-        className="flex items-center gap-4 p-4 rounded-2xl border"
+        className="card-hover flex items-center gap-4 p-4 rounded-2xl border"
         style={{ background: 'var(--bg-card)', borderColor: 'var(--border)' }}
       >
         <img

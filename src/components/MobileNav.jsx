@@ -3,7 +3,6 @@ import { NavLink, useLocation } from 'react-router-dom';
 import {
   RiHome4Line, RiHome4Fill,
   RiUserLine, RiUserFill,
-  RiCodeBoxLine, RiCodeBoxFill,
   RiTrophyLine, RiTrophyFill,
   RiFolderLine, RiFolderFill,
   RiContactsLine, RiContactsFill,
@@ -16,7 +15,6 @@ import { useAppContext } from '../context/AppContext';
 const navLinks = [
   { to: '/',            label: { en: 'Home',         id: 'Beranda'    }, icon: RiHome4Line,    activeIcon: RiHome4Fill    },
   { to: '/about',       label: { en: 'About',        id: 'Tentang'    }, icon: RiUserLine,     activeIcon: RiUserFill     },
-  { to: '/creations',   label: { en: 'Creations',    id: 'Kreasi'     }, icon: RiCodeBoxLine,  activeIcon: RiCodeBoxFill  },
   { to: '/achievements',label: { en: 'Achievements', id: 'Pencapaian' }, icon: RiTrophyLine,   activeIcon: RiTrophyFill   },
   { to: '/projects',    label: { en: 'Projects',     id: 'Proyek'     }, icon: RiFolderLine,   activeIcon: RiFolderFill   },
   { to: '/contact',     label: { en: 'Contact',      id: 'Kontak'     }, icon: RiContactsLine, activeIcon: RiContactsFill },

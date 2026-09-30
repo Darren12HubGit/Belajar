@@ -22,7 +22,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="space-y-5">
         {/* Greeting */}
-        <div className="space-y-2">
+        <div>
           <h1
             className="text-3xl font-semibold tracking-tight"
             style={{ color: 'var(--text-primary)' }}
@@ -30,8 +30,8 @@ export default function Home() {
             {t.home.greeting}
           </h1>
           <ul
-            className="flex flex-wrap gap-x-8 gap-y-1 list-disc list-inside text-sm"
-            style={{ color: 'var(--text-secondary)' }}
+            className="flex flex-wrap gap-x-8 gap-y-1 list-disc list-inside text-sm leading-relaxed mt-4"
+            style={{ color: 'var(--text-secondary)', marginTop: '16px' }}
           >
             <li>{t.home.location}</li>
             <li>{t.home.role}</li>

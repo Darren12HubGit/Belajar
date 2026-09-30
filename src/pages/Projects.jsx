@@ -1,13 +1,14 @@
 import { useState, useMemo } from 'react';
-import { RiFolderLine } from 'react-icons/ri';
 import SectionHeader from '../components/SectionHeader';
 import ProjectCard from '../components/ProjectCard';
+import ProjectModal from '../components/ProjectModal';
 import { projects, projectCategories } from '../data/projects';
 import { useAppContext } from '../context/AppContext';
 
 export default function Projects() {
   const { t } = useAppContext();
   const [activeCategory, setActiveCategory] = useState('All');
+  const [selectedProject, setSelectedProject] = useState(null);
 
   const filteredProjects = useMemo(() => {
     if (activeCategory === 'All') return projects;
@@ -20,9 +21,9 @@ export default function Projects() {
   return (
     <div className="page-enter space-y-6">
       <SectionHeader
-        icon={<RiFolderLine />}
         title={t.projects.title}
         subtitle={t.projects.subtitle}
+        isPageTitle
       />
 
       {/* Category Filters */}
@@ -59,9 +60,13 @@ export default function Projects() {
       </div>
 
       {/* Projects Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         {filteredProjects.map(project => (
-          <ProjectCard key={project.id} project={project} />
+          <ProjectCard
+            key={project.id}
+            project={project}
+            onClick={setSelectedProject}
+          />
         ))}
       </div>
 
@@ -72,6 +77,14 @@ export default function Projects() {
         >
           {t.projects.empty}
         </div>
+      )}
+
+      {/* Project Detail & Image Showcase Modal */}
+      {selectedProject && (
+        <ProjectModal
+          project={selectedProject}
+          onClose={() => setSelectedProject(null)}
+        />
       )}
     </div>
   );

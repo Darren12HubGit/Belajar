@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { RiTrophyLine, RiSearchLine } from 'react-icons/ri';
+import { RiSearchLine } from 'react-icons/ri';
 import SectionHeader from '../components/SectionHeader';
 import AchievementCard from '../components/AchievementCard';
 import AchievementModal from '../components/AchievementModal';
@@ -34,9 +34,9 @@ export default function Achievements() {
   return (
     <div className="page-enter space-y-6">
       <SectionHeader
-        icon={<RiTrophyLine />}
         title={t.achievements.title}
         subtitle={t.achievements.subtitle}
+        isPageTitle
       />
 
       <hr className="divider" style={{ borderStyle: 'dashed' }} />
@@ -124,7 +124,7 @@ export default function Achievements() {
       </div>
 
       {/* Cards Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+      <div className="ach-cards-grid">
         {filtered.map((item) => (
           <AchievementCard
             key={item.id}

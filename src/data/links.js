@@ -46,16 +46,12 @@ export const socialLinks = [
   {
     id: 5,
     name: 'Email',
-    handle: 'darreniqbal12@gmail.com',
-    url: 'mailto:darreniqbal12@gmail.com',
+    handle: 'iqbaldarren12@mail.com',
+    url: 'mailto:iqbaldarren12@mail.com',
     description: 'Send me a message directly',
     icon: 'email',
     color: '#10B981',
     bg: 'rgba(16,185,129,0.08)',
     border: 'rgba(16,185,129,0.2)',
   },
-];
-
-export const creationLinks = [
-  { name: 'Portfolio Source Code', url: 'https://github.com/Darren12HubGit', icon: 'github' },
 ];

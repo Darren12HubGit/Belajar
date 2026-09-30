@@ -11,6 +11,8 @@ export const projects = [
     live: '#',
     status: 'Completed',
     year: '2026',
+    image: '/projects/project-devportfolio.svg',
+    features: ['Dark & Light Mode Support', 'Modular Component Architecture', 'Fluid Parallax Transitions', 'Full Mobile & Desktop Responsiveness'],
   },
   {
     id: 2,
@@ -22,6 +24,8 @@ export const projects = [
     live: '#',
     status: 'In Progress',
     year: '2025',
+    image: '/projects/project-taskflow.svg',
+    features: ['Real-time Kanban Drag & Drop Boards', 'Collaborative Team Workspaces', 'Deadline Tracking & Priority Tags', 'PostgreSQL & Prisma Schema'],
   },
   {
     id: 3,
@@ -33,6 +37,8 @@ export const projects = [
     live: null,
     status: 'Completed',
     year: '2025',
+    image: '/projects/project-shoplite.svg',
+    features: ['Interactive Product Catalog & Filtering', 'Persistent Shopping Cart & Checkout', 'Redux State Management', 'Native iOS & Android Performance'],
   },
   {
     id: 4,
@@ -44,6 +50,8 @@ export const projects = [
     live: '#',
     status: 'Completed',
     year: '2025',
+    image: '/projects/project-dataviz.svg',
+    features: ['Real-time KPI Metric Visualizations', 'Interactive Line, Bar & Donut Charts', 'Custom Date Range & Dimension Filters', 'RESTful API Data Ingestion Pipeline'],
   },
   {
     id: 5,
@@ -55,6 +63,8 @@ export const projects = [
     live: '#',
     status: 'Completed',
     year: '2024',
+    image: '/projects/project-notesync.svg',
+    features: ['Split Markdown Editor with Live Preview', 'Encrypted Cloud Sync via Firebase', 'Folder Tree Hierarchy & Tagging', 'Offline Mode with Local Storage Cache'],
   },
   {
     id: 6,
@@ -66,5 +76,7 @@ export const projects = [
     live: null,
     status: 'Completed',
     year: '2024',
+    image: '/projects/project-clitoolkit.svg',
+    features: ['Automated Project Scaffolding Engine', 'Batch File Renaming & Formatting', 'Interactive Terminal Prompts', 'Cross-Platform Node.js Shell Utilities'],
   },
 ];

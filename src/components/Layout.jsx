@@ -1,7 +1,15 @@
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import MobileNav from './MobileNav';
 
 export default function Layout({ children }) {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }, [pathname]);
+
   return (
     <div
       className="min-h-screen"
@@ -31,7 +39,9 @@ export default function Layout({ children }) {
           className="flex-1 min-w-0"
           style={{ padding: '40px 48px' }}
         >
-          {children}
+          <div key={pathname} className="page-parallax-wrapper">
+            {children}
+          </div>
         </main>
       </div>
 
@@ -39,7 +49,9 @@ export default function Layout({ children }) {
       <div className="lg:hidden flex flex-col min-h-screen">
         <MobileNav />
         <main style={{ flex: 1, padding: '24px 20px' }}>
-          {children}
+          <div key={pathname} className="page-parallax-wrapper">
+            {children}
+          </div>
         </main>
       </div>
     </div>

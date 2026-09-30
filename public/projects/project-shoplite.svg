@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sl-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="sl-phone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f2430"/>
+      <stop offset="100%" stop-color="#131720"/>
+    </linearGradient>
+    <radialGradient id="sl-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="480" fill="url(#sl-bg)"/>
+  <circle cx="400" cy="240" r="220" fill="url(#sl-glow)"/>
+
+  <!-- Left Showcase Feature Highlights -->
+  <g transform="translate(60, 130)">
+    <rect x="0" y="0" width="100" height="22" rx="11" fill="#3b82f6" fill-opacity="0.15" stroke="#3b82f6" stroke-opacity="0.3"/>
+    <text x="50" y="15" fill="#60a5fa" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="600" font-size="10" text-anchor="middle">REACT NATIVE</text>
+
+    <text x="0" y="52" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="800" font-size="28">ShopLite Mobile</text>
+    <text x="0" y="76" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">E-Commerce Application for iOS &amp; Android</text>
+
+    <g transform="translate(0, 110)">
+      <circle cx="8" cy="8" r="4" fill="#10b981"/>
+      <text x="22" y="12" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">Katalog Produk Cepat &amp; Filter Real-time</text>
+
+      <circle cx="8" cy="38" r="4" fill="#3b82f6"/>
+      <text x="22" y="42" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">Keranjang Belanja Persisten Redux Toolkit</text>
+
+      <circle cx="8" cy="68" r="4" fill="#f59e0b"/>
+      <text x="22" y="72" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">Integrasi Gateway Pembayaran &amp; Tracking</text>
+    </g>
+  </g>
+
+  <!-- Centered Smartphone Frame Mockup -->
+  <g transform="translate(480, 30)">
+    <!-- Phone Outer Shell -->
+    <rect x="0" y="0" width="240" height="420" rx="36" fill="#090d16" stroke="#334155" stroke-width="3"/>
+    <rect x="8" y="8" width="224" height="404" rx="28" fill="#111827"/>
+
+    <!-- Dynamic Island / Speaker notch -->
+    <rect x="80" y="16" width="80" height="18" rx="9" fill="#000000"/>
+    <circle cx="145" cy="25" r="3.5" fill="#1e293b"/>
+
+    <!-- Status Bar -->
+    <text x="28" y="29" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="600" font-size="10">9:41</text>
+    <text x="195" y="29" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10">5G ■</text>
+
+    <!-- App Header inside phone -->
+    <g transform="translate(18, 48)">
+      <text x="0" y="16" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10">Discover</text>
+      <text x="0" y="34" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="16">Tech Gear</text>
+
+      <!-- Cart Icon button -->
+      <circle cx="190" cy="24" r="14" fill="#1f2937"/>
+      <text x="190" y="28" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" text-anchor="middle">🛍</text>
+      <circle cx="199" cy="14" r="5" fill="#ef4444"/>
+      <text x="199" y="17" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="8" font-weight="700" text-anchor="middle">2</text>
+
+      <!-- Search input -->
+      <rect x="0" y="48" width="204" height="28" rx="8" fill="#1f2937" stroke="#374151" stroke-width="0.8"/>
+      <text x="12" y="66" fill="#6b7280" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10">🔍 Search audio, watches...</text>
+
+      <!-- Promo Banner -->
+      <rect x="0" y="86" width="204" height="65" rx="10" fill="#2563eb"/>
+      <text x="14" y="108" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="12">Flash Sale 40% OFF</text>
+      <text x="14" y="124" fill="#bfdbfe" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="9">Studio Pro Wireless Audio</text>
+      <rect x="14" y="132" width="60" height="14" rx="7" fill="#ffffff"/>
+      <text x="44" y="142" fill="#1d4ed8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="8" font-weight="700" text-anchor="middle">BELI SEKARANG</text>
+
+      <!-- Product Grid 2 items -->
+      <g transform="translate(0, 162)">
+        <!-- Item 1 -->
+        <rect x="0" y="0" width="97" height="120" rx="8" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+        <rect x="8" y="8" width="81" height="55" rx="6" fill="#0f172a"/>
+        <text x="48" y="42" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" text-anchor="middle">🎧</text>
+        <text x="8" y="78" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="600" font-size="9">ANC Headset</text>
+        <text x="8" y="93" fill="#10b981" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="11">$189.00</text>
+        <rect x="8" y="100" width="81" height="14" rx="4" fill="#2563eb"/>
+        <text x="48" y="110" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="8" font-weight="600" text-anchor="middle">+ Add</text>
+
+        <!-- Item 2 -->
+        <rect x="107" y="0" width="97" height="120" rx="8" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+        <rect x="115" y="8" width="81" height="55" rx="6" fill="#0f172a"/>
+        <text x="155" y="42" fill="#f59e0b" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" text-anchor="middle">⌚</text>
+        <text x="115" y="78" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="600" font-size="9">FitPulse Pro</text>
+        <text x="115" y="93" fill="#10b981" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="11">$129.50</text>
+        <rect x="115" y="100" width="81" height="14" rx="4" fill="#2563eb"/>
+        <text x="155" y="110" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="8" font-weight="600" text-anchor="middle">+ Add</text>
+      </g>
+    </g>
+
+    <!-- Bottom App Navigation Bar -->
+    <rect x="8" y="375" width="224" height="37" fill="#090d16"/>
+    <text x="40" y="396" fill="#3b82f6" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" text-anchor="middle">🏠</text>
+    <text x="95" y="396" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" text-anchor="middle">🔍</text>
+    <text x="150" y="396" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" text-anchor="middle">❤️</text>
+    <text x="205" y="396" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" text-anchor="middle">👤</text>
+  </g>
+</svg>
